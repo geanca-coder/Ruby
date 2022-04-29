@@ -1,0 +1,4 @@
+geancarlo, ventas
+frank, servicio
+diana, call center
+Oscar, accounting
