@@ -1,0 +1,24 @@
+[1mdiff --git a/code.rb b/code.rb[m
+[1mindex 2662ebf..e129f75 100644[m
+[1m--- a/code.rb[m
+[1m+++ b/code.rb[m
+[36m@@ -27,19 +27,11 @@[m [mend[m
+ [m
+ [m
+ class Employer < Person[m
+[31m-    #attr_writer :name, last_name[m
+[31m-    #attr_reader :name, 444last_name[m
+     attr_accessor :name, :last_name, :code,:salary[m
+     def initialize(name,last_name,code,salary,email)[m
+         super(name,last_name,code, salary)[m
+         @email = email[m
+     end[m
+[31m-    #def name[m
+[31m-        #@name[m
+[31m-    #end[m
+[31m-    #def name=(name)[m
+[31m-        #@name = name[m
+[31m-    #end[m
+ end[m
+ class Manager[m
+            [m

@@ -27,19 +27,11 @@ end
 
 
 class Employer < Person
-    #attr_writer :name, last_name
-    #attr_reader :name, 444last_name
     attr_accessor :name, :last_name, :code,:salary
     def initialize(name,last_name,code,salary,email)
         super(name,last_name,code, salary)
         @email = email
     end
-    #def name
-        #@name
-    #end
-    #def name=(name)
-        #@name = name
-    #end
 end
 class Manager
            
