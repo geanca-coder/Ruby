@@ -148,6 +148,12 @@ end
     puts index
 end
 
+var = 7
+until var == 11 do 
+  puts var * 10
+  var = var + 1  
+end
+
 File.open("personal.txt","r") do |file|
     for line in file.readlines()
         puts line
